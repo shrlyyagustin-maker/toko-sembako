@@ -233,12 +233,14 @@ class TokoPageState extends State<TokoPage> with TickerProviderStateMixin {
         _pickedImageBytes = bytes;
       });
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Gagal memilih gambar'),
-          backgroundColor: Colors.redAccent,
-        ),
-      );
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Gagal memilih gambar'),
+            backgroundColor: Colors.redAccent,
+          ),
+        );
+      }
     }
   }
 
@@ -625,7 +627,7 @@ class TokoPageState extends State<TokoPage> with TickerProviderStateMixin {
                           ],
                         ),
                         trailing: IconButton(
-                          icon: const Icon(Icons.visibility, color: const Color(0xFF1E3A8A)),
+                          icon: const Icon(Icons.visibility, color: Color(0xFF1E3A8A)),
                           onPressed: () => _lihatStrukDetail(trans),
                         ),
                       ),
