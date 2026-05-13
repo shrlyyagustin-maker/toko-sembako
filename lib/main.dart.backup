@@ -163,7 +163,7 @@ class _TokoPageState extends State<TokoPage> with TickerProviderStateMixin {
   String _generateStruk() {
     StringBuffer struk = StringBuffer();
     struk.writeln('================================');
-    struk.writeln('         TOKO PIKEK');
+    struk.writeln('         TOKO SEMBAKO');
     struk.writeln('================================');
     struk.writeln('Tanggal: ${DateTime.now().toString()}');
     struk.writeln('User: ${widget.user.username}');

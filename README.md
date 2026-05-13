@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Toko Makanan - Aplikasi Toko Bahan Makanan
+# Toko Sembako - Aplikasi Toko Bahan Makanan
 
 Aplikasi Flutter untuk simulasi toko bahan makanan dengan fitur role-based (Admin dan Pembeli), manajemen stok, dan history transaksi.
 
@@ -94,6 +93,3 @@ Proyek ini dibuat untuk memenuhi praktikum "Pengembangan Aplikasi & Software Tes
 - Testing coverage
 - CI/CD pipeline
 - User experience
-=======
-# Toko_bahan_makanan
->>>>>>> 5416746d6dd89d3856d8da5cf775f2d62382849f

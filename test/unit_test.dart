@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:toko_semako01/models/barang.dart';
-import 'package:toko_semako01/models/transaksi.dart';
+import 'package:toko_sembako/models/barang.dart';
+import 'package:toko_sembako/models/transaksi.dart';
 
 void main() {
   group('Unit Test', () {

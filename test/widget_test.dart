@@ -7,7 +7,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:toko_semako01/main.dart';
+import 'package:toko_sembako/main.dart';
 
 void main() {
   testWidgets('App launches without error', (WidgetTester tester) async {
