@@ -1,4 +1,4 @@
-package com.example.toko_pikek
+package com.example.toko_sembako
 
 import io.flutter.embedding.android.FlutterActivity
 
